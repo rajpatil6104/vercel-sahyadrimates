@@ -1,15 +1,11 @@
 {
   "version": 2,
   "functions": {
-    "api/server.py": {
-      "runtime": "@vercel/python",
-      "includeFiles": "images/**"
+    "backend/server.py": {
+      "runtime": "@vercel/python"
     }
   },
   "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/api/server.py"
-    }
+    { "source": "/(.*)", "destination": "backend/server.py" }
   ]
 }
