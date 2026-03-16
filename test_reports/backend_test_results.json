@@ -1,0 +1,133 @@
+{
+  "timestamp": "2026-01-06T17:01:39.501800",
+  "total_tests": 25,
+  "passed_tests": 25,
+  "success_rate": 100.0,
+  "results": [
+    {
+      "test": "User Registration",
+      "success": true,
+      "details": "Status: 200"
+    },
+    {
+      "test": "User Login",
+      "success": true,
+      "details": "Status: 200"
+    },
+    {
+      "test": "Get Current User",
+      "success": true,
+      "details": "Status: 200"
+    },
+    {
+      "test": "Get All Tours",
+      "success": true,
+      "details": "Status: 200"
+    },
+    {
+      "test": "Get Tour by ID",
+      "success": true,
+      "details": "Status: 200"
+    },
+    {
+      "test": "Get Tour by Slug",
+      "success": true,
+      "details": "Status: 200"
+    },
+    {
+      "test": "Get Tours with Search Filter",
+      "success": true,
+      "details": "Status: 200"
+    },
+    {
+      "test": "Get Tours with Category Filter",
+      "success": true,
+      "details": "Status: 200"
+    },
+    {
+      "test": "Get Tours with Price Filter",
+      "success": true,
+      "details": "Status: 200"
+    },
+    {
+      "test": "Get Destinations",
+      "success": true,
+      "details": "Status: 200"
+    },
+    {
+      "test": "Get Categories",
+      "success": true,
+      "details": "Status: 200"
+    },
+    {
+      "test": "Get Available Coupons",
+      "success": true,
+      "details": "Status: 200"
+    },
+    {
+      "test": "Validate Coupon LOYALTY50",
+      "success": true,
+      "details": "Status: 200"
+    },
+    {
+      "test": "Validate Coupon LOYALTY200",
+      "success": true,
+      "details": "Status: 200"
+    },
+    {
+      "test": "Validate Coupon LOYALTY500",
+      "success": true,
+      "details": "Status: 200"
+    },
+    {
+      "test": "Validate Coupon FIRST10",
+      "success": true,
+      "details": "Status: 200"
+    },
+    {
+      "test": "Validate Invalid Coupon",
+      "success": true,
+      "details": "Status: 404"
+    },
+    {
+      "test": "Get Tours for Review Test",
+      "success": true,
+      "details": "Status: 200"
+    },
+    {
+      "test": "Get Reviews for Tour tour-1",
+      "success": true,
+      "details": "Status: 200"
+    },
+    {
+      "test": "Create Review",
+      "success": true,
+      "details": "Status: 200"
+    },
+    {
+      "test": "Get Tours for Booking Test",
+      "success": true,
+      "details": "Status: 200"
+    },
+    {
+      "test": "Create Booking",
+      "success": true,
+      "details": "Status: 200"
+    },
+    {
+      "test": "Get User Bookings",
+      "success": true,
+      "details": "Status: 200"
+    },
+    {
+      "test": "Get Non-existent Tour",
+      "success": true,
+      "details": "Status: 404"
+    },
+    {
+      "test": "Unauthorized Access",
+      "success": true,
+      "details": "Status: 401"
+    }
+  ]
+}

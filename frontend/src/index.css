@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 39 39 37;
+    --foreground: 249 249 247;
+    --card: 255 255 255;
+    --card-foreground: 47 62 70;
+    --popover: 255 255 255;
+    --popover-foreground: 47 62 70;
+    --primary: 47 62 70;
+    --primary-foreground: 255 255 255;
+    --secondary: 202 210 197;
+    --secondary-foreground: 47 62 70;
+    --muted: 132 169 140;
+    --muted-foreground: 47 62 70;
+    --accent: 231 111 81;
+    --accent-foreground: 255 255 255;
+    --destructive: 239 68 68;
+    --destructive-foreground: 255 255 255;
+    --border: 202 210 197;
+    --input: 202 210 197;
+    --ring: 231 111 81;
+    --radius: 1rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-[#F9F9F7] text-primary font-[Manrope];
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-[Syne] font-bold;
+  }
+}
