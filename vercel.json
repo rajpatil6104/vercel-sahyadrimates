@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "functions": {
+    "backend/server.py": {
+      "runtime": "@vercel/python"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "backend/server.py"
+    }
+  ]
+}
