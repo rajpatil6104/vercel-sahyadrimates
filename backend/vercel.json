@@ -1,28 +1,15 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "backend/server.py",
-      "use": "@vercel/python"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/images/(.*)",
-      "dest": "backend/server.py"
-    },
-    {
-      "src": "/api/(.*)",
-      "dest": "backend/server.py"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "backend/server.py"
-    }
-  ],
   "functions": {
-    "backend/server.py": {
+    "api/**/*.py": {
+      "runtime": "@vercel/python",
       "includeFiles": "images/**"
     }
-  }
+  },
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/api/server.py"
+    }
+  ]
 }
