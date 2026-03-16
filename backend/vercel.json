@@ -1,11 +1,11 @@
 {
   "version": 2,
   "functions": {
-    "backend/server.py": {
+    "server.py": {
       "runtime": "@vercel/python"
     }
   },
   "rewrites": [
-    { "source": "/(.*)", "destination": "backend/server.py" }
+    { "source": "/(.*)", "destination": "server.py" }
   ]
 }
