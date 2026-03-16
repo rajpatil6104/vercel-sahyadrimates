@@ -16,7 +16,7 @@
       "destination": "backend/server.py"
     },
     {
-      "source": "/seed_data.py",
+      "source": "/seed_data",
       "destination": "backend/server.py"
     }
   ]
