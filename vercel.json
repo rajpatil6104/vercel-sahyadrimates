@@ -1,3 +1,4 @@
+
 {
   "version": 2,
   "functions": {
@@ -7,7 +8,15 @@
   },
   "rewrites": [
     {
-      "source": "/(.*)",
+      "source": "/api/(.*)",
+      "destination": "backend/server.py"
+    },
+    {
+      "source": "/images/(.*)",
+      "destination": "backend/server.py"
+    },
+    {
+      "source": "/seed_data.py",
       "destination": "backend/server.py"
     }
   ]
